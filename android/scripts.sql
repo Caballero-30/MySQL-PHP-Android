@@ -1,0 +1,11 @@
+CREATE DATABASE android;
+
+USE android;
+
+CREATE TABLE users (
+	id INT(11) PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(30) NOT NULL,
+    password VARCHAR(30) NOT NULL,
+    phone VARCHAR(10) NOT NULL
+);
